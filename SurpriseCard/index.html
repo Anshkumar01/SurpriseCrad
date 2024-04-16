@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <img src="  https://media.istockphoto.com/id/1130636356/photo/sunset-over-mountain-with-cosmos-blooming.jpg?s=1024x1024&w=is&k=20&c=w4FZ_WvrQsBwjs-JXl7YUCZCi8_YyuzxuJbo3tF34pQ="> -->
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                                <strong>Dear Nitin Sir </strong>
+                        <p>
+                            Thank you for being an exceptional teacher who taught us beyond just subjects!!I may have forget a lil what you said but will never forget how u made us feel , the bond we share and  will miss u sir beyond the words can say.There's no goodbye for us..Wishing you all the best as you move forward..
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <div class="text">
+    </div>
+
+
+
+    <div class="cont">
+        <div class="card">
+            <div class="outside">
+                <img src="https://gifdb.com/images/high/beige-racoon-cartoon-puppy-eye-ut3caclx7ntnmurw.webp" alt="image">
+                <h1>SORRY</h1>
+                <h3>We couldn`t come to meet you yesterday. So here`s a small maessagem for you -></h3>
+            </div>
+            <div class="inside">
+                <img src="" alt="">
+                <img src="" alt="">
+                <h3>Click on the heart to open the Envelope</h3>
+            </div>
+        </div>
+        
+    </div>
+    
+                
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
